@@ -1,0 +1,32 @@
+Boksit
+
+
+	- Nettotulot e/kk	(a)
+    	- Saastoajan pituus vuosina (z)
+
+	- Tavoitevarallisuus	(fv)
+ 	- Alkuvarallisuus	(pv)
+
+	- Vuosittainen korko 	(APR)
+
+
+-- Defaultit, naita tulee varmasti lisaa
+
+	- Vuokra		(b)
+	- Ruoka			(c)
+	- Internet		(d)
+	- Puhelinlasku		(e)
+ 	- Vakuutukset		(f)
+	- Muut			(g)
+
+	- Saastoon		(x)
+		//Kaava x=r/((1+r)^N-1)*(pv*(1+r)^N+fv)/(1+r)
+
+
+	 - Ylimaarainen kaytossa oleva raha
+		//Kaava a-(b+c+d+e+f+g+...+x)
+
+-- Tiedot
+
+	- Saastoaika kuukausina (z*12) (N)
+	- Korko per kuukausi (APR/12) (r)
